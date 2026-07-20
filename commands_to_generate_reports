@@ -1,0 +1,7 @@
+ For HTML Report:=
+ pytest -v -s --html=reports/report.html testcases\
+
+For Allure Report:=
+  pytest -v -s --alluredir=reports/allure-result  testcases\
+  allure generate reports\allure-result -o reports\allure-html --clean
+  allure open reports\allure-html
