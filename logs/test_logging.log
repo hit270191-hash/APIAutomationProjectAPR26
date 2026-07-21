@@ -2819,3 +2819,33 @@
 2026-07-20 08:37:16,510- INFO - Response status: 200
 2026-07-20 08:37:16,510- INFO - Response Headers: {'X-Powered-By': 'tinyhttp', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE', 'Access-Control-Allow-Headers': 'content-type', 'Content-Type': 'application/json', 'Date': 'Mon, 20 Jul 2026 03:07:16 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5', 'Content-Length': '170'}
 2026-07-20 08:37:16,510- INFO - Response Body: {'id': '1b08', 'title': 'Test Product 40', 'price': 394.28, 'description': 'This is a test description for product 40', 'category': 'jewelery', 'stock': 79}
+2026-07-21 08:20:01,406- INFO - Request: POST http://localhost:3000/carts
+2026-07-21 08:20:01,417- INFO - Request Headers: {'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '182', 'Content-Type': 'application/json'}
+2026-07-21 08:20:01,418- INFO - Request Body: b'{"userId": 83, "date": "2026-07-21", "products": [{"productId": 4, "quantity": 3}, {"productId": 6, "quantity": 5}, {"productId": 4, "quantity": 5}, {"productId": 4, "quantity": 5}]}'
+2026-07-21 08:20:01,418- INFO - Response status: 201
+2026-07-21 08:20:01,418- INFO - Response Headers: {'X-Powered-By': 'tinyhttp', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE', 'Access-Control-Allow-Headers': 'content-type', 'Content-Type': 'application/json', 'Date': 'Tue, 21 Jul 2026 02:50:01 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5', 'Content-Length': '298'}
+2026-07-21 08:20:01,418- INFO - Response Body: {'id': 'e90c', 'userId': 83, 'date': '2026-07-21', 'products': [{'productId': 4, 'quantity': 3}, {'productId': 6, 'quantity': 5}, {'productId': 4, 'quantity': 5}, {'productId': 4, 'quantity': 5}]}
+2026-07-21 08:36:50,840- INFO - Request: POST http://localhost:3000/carts
+2026-07-21 08:36:50,851- INFO - Request Headers: {'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '150', 'Content-Type': 'application/json'}
+2026-07-21 08:36:50,851- INFO - Request Body: b'{"userId": 31, "date": "2026-07-21", "products": [{"productId": 5, "quantity": 1}, {"productId": 10, "quantity": 1}, {"productId": 3, "quantity": 4}]}'
+2026-07-21 08:36:50,852- INFO - Response status: 201
+2026-07-21 08:36:50,852- INFO - Response Headers: {'X-Powered-By': 'tinyhttp', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE', 'Access-Control-Allow-Headers': 'content-type', 'Content-Type': 'application/json', 'Date': 'Tue, 21 Jul 2026 03:06:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5', 'Content-Length': '244'}
+2026-07-21 08:36:50,852- INFO - Response Body: {'id': 'bc67', 'userId': 31, 'date': '2026-07-21', 'products': [{'productId': 5, 'quantity': 1}, {'productId': 10, 'quantity': 1}, {'productId': 3, 'quantity': 4}]}
+2026-07-21 08:37:15,382- INFO - Request: POST http://localhost:3000/carts
+2026-07-21 08:37:15,382- INFO - Request Headers: {'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '83', 'Content-Type': 'application/json'}
+2026-07-21 08:37:15,382- INFO - Request Body: b'{"userId": 77, "date": "2026-07-21", "products": [{"productId": 2, "quantity": 5}]}'
+2026-07-21 08:37:15,382- INFO - Response status: 201
+2026-07-21 08:37:15,382- INFO - Response Headers: {'X-Powered-By': 'tinyhttp', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE', 'Access-Control-Allow-Headers': 'content-type', 'Content-Type': 'application/json', 'Date': 'Tue, 21 Jul 2026 03:07:15 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5', 'Content-Length': '133'}
+2026-07-21 08:37:15,382- INFO - Response Body: {'id': '7606', 'userId': 77, 'date': '2026-07-21', 'products': [{'productId': 2, 'quantity': 5}]}
+2026-07-21 08:37:35,733- INFO - Request: POST http://localhost:3000/carts
+2026-07-21 08:37:35,733- INFO - Request Headers: {'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '215', 'Content-Type': 'application/json'}
+2026-07-21 08:37:35,733- INFO - Request Body: b'{"userId": 91, "date": "2026-07-21", "products": [{"productId": 3, "quantity": 3}, {"productId": 6, "quantity": 3}, {"productId": 7, "quantity": 2}, {"productId": 9, "quantity": 1}, {"productId": 2, "quantity": 2}]}'
+2026-07-21 08:37:35,733- INFO - Response status: 201
+2026-07-21 08:37:35,733- INFO - Response Headers: {'X-Powered-By': 'tinyhttp', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE', 'Access-Control-Allow-Headers': 'content-type', 'Content-Type': 'application/json', 'Date': 'Tue, 21 Jul 2026 03:07:35 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5', 'Content-Length': '353'}
+2026-07-21 08:37:35,733- INFO - Response Body: {'id': 'ad87', 'userId': 91, 'date': '2026-07-21', 'products': [{'productId': 3, 'quantity': 3}, {'productId': 6, 'quantity': 3}, {'productId': 7, 'quantity': 2}, {'productId': 9, 'quantity': 1}, {'productId': 2, 'quantity': 2}]}
+2026-07-21 08:48:39,736- INFO - Request: POST http://localhost:3000/carts
+2026-07-21 08:48:39,737- INFO - Request Headers: {'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '116', 'Content-Type': 'application/json'}
+2026-07-21 08:48:39,737- INFO - Request Body: b'{"userId": 70, "date": "2026-07-21", "products": [{"productId": 9, "quantity": 2}, {"productId": 3, "quantity": 2}]}'
+2026-07-21 08:48:39,737- INFO - Response status: 201
+2026-07-21 08:48:39,737- INFO - Response Headers: {'X-Powered-By': 'tinyhttp', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE', 'Access-Control-Allow-Headers': 'content-type', 'Content-Type': 'application/json', 'Date': 'Tue, 21 Jul 2026 03:18:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=5', 'Content-Length': '188'}
+2026-07-21 08:48:39,737- INFO - Response Body: {'id': 'b746', 'userId': 70, 'date': '2026-07-21', 'products': [{'productId': 9, 'quantity': 2}, {'productId': 3, 'quantity': 2}]}
